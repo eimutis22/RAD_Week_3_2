@@ -150,19 +150,150 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DAL\CustomerRepository.cs" />
+    <Compile Include="DAL\ICustomerRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Alphabetical_list_of_product.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Category.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Category_Sales_for_1997.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Contact.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Current_Product_List.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Customer.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustomerDemographic.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Customers_By_City_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Customer_and_Suppliers_by_City.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustOrderHist_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustOrdersDetail_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CustOrdersOrders_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Employee.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Employee_Sales_by_Country_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Get_Customer_And_Orders_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Invoice.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\NorthModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NorthModel.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\NorthModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\NorthModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NorthModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Order.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Orders_Qry.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Order_Detail.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Order_Details_Extended.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Order_Subtotal.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Product.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductsUnderThisUnitPrice_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Products_Above_Average_Price.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Products_by_Category.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Product_Sales_for_1997.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Region.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SalesByCategory_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Sales_by_Category.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Sales_by_Year_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Sales_Totals_by_Amount.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Shipper.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Summary_of_Sales_by_Quarter.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Summary_of_Sales_by_Year.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Supplier.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Ten_Most_Expensive_Products_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Territory.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Whole_Or_Partial_Customers_Set_Result.cs">
+      <DependentUpon>NorthModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -180,6 +311,12 @@
     <Content Include="Models\NorthModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NorthModel.Context.cs</LastGenOutput>
+      <DependentUpon>NorthModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\NorthModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NorthModel.edmx</DependentUpon>
+      <LastGenOutput>NorthModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -190,9 +327,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>NorthModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Models\NorthModel.edmx.diagram">
+    <Content Include="Models\NorthModel.edmx.diagram">
       <DependentUpon>NorthModel.edmx</DependentUpon>
-    </None>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -219,7 +356,9 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Customer\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
