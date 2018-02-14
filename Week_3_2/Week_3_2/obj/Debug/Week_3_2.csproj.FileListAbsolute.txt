@@ -44,3 +44,11 @@ C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3
 C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\EntityFramework.SqlServer.dll
 C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\EntityFramework.xml
 C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\EntityFramework.SqlServer.xml
+C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\Ninject.dll
+C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\Ninject.Web.Common.dll
+C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\Ninject.Web.Mvc.dll
+C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\Ninject.xml
+C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\Ninject.Web.Common.xml
+C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\Eimutis\Documents\College Stuff\Semester2\RAD302\Week3\Ex3.2\RAD_Week_3_2\Week_3_2\Week_3_2\bin\Ninject.Web.Mvc.xml
