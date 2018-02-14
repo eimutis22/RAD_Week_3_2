@@ -165,9 +165,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="DAL\CustomerRepository.cs" />
     <Compile Include="DAL\DummyCustomerRepository.cs" />
     <Compile Include="DAL\ICustomerRepository.cs" />
+    <Compile Include="DAL\IProductRepository.cs" />
+    <Compile Include="DAL\ProductRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -370,6 +373,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

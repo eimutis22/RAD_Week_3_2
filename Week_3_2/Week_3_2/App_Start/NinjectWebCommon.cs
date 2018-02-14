@@ -71,6 +71,13 @@ namespace Week_3_2.App_Start
             Type repoToInject = Assembly.GetExecutingAssembly().GetType(name);
 
             kernel.Bind<ICustomerRepository>().To(repoToInject);
+
+
+            name = WebConfigurationManager.AppSettings["ProdRepoSetting"];
+            repoToInject = Assembly.GetExecutingAssembly().GetType(name);
+
+            kernel.Bind<IProductRepository>().To(repoToInject);
+
         }        
     }
 }
