@@ -10,6 +10,9 @@ namespace Week_3_2.App_Start
 
     using Ninject;
     using Ninject.Web.Common;
+    using Week_3_2.DAL;
+    using System.Web.Configuration;
+    using System.Reflection;
 
     public static class NinjectWebCommon 
     {
@@ -61,6 +64,13 @@ namespace Week_3_2.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            //kernel.Bind<ICustomerRepository>().To<CustomerRepository>();
+            //kernel.Bind<ICustomerRepository>().To<DummyCustomerRepository>();
+
+            string name = WebConfigurationManager.AppSettings["CustRepoSetting"];
+            Type repoToInject = Assembly.GetExecutingAssembly().GetType(name);
+
+            kernel.Bind<ICustomerRepository>().To(repoToInject);
         }        
     }
 }
